@@ -52,6 +52,10 @@ body{
 .fs-larger{
   font-size: 20px;
 }
+.fs-large1{
+  font-size: 20px;
+}
+
 /* Optional: add shadow when scrolling */
 .sticky-header.scrolled{
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
