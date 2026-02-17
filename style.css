@@ -83,7 +83,7 @@ body{
   margin-bottom:15px;
 }
 .hero-text{
-  font-size:18px;
+  font-size:22px;
   color:#555;
   margin-bottom:15px;
 }
@@ -489,7 +489,7 @@ body{
   padding:30px;
   border:2px solid #2F8FB1;
   border-radius:10px;
-  font-size:15px;
+  font-size:20px;
 }
 
 .facts-serving p{
@@ -511,7 +511,7 @@ body{
   display:flex;
   justify-content:space-between;
   padding:6px 0;
-  font-size:14px;
+  font-size:18px;
 }
 
 .facts-row.header{
@@ -524,7 +524,7 @@ body{
 }
 
 .product-facts-img{
-  max-width:400px;
+  max-width:500px;
 }
 
 .facts-icons{
