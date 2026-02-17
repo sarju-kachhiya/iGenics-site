@@ -3,15 +3,23 @@
 }
 
 body{
-  font-family:'Jost',sans-serif;
+  font-family:'cabin',sans-serif;
   font-size:17px;              /* increased */
   color:#222;
   line-height:1.6;
 }
 
+.heading-text{
+  font-family: 'raleway', sans-serif;
+}
+
+.igenic-text{
+  font-family: 'jost', sans-serif;
+}
+
 /* Top bar */
 .topbar{
-  background:var(--blue);
+  background:linear-gradient(135deg,#2F8FB1,#1f3b73);
   color:#fff;
   font-size:20px;
   padding:10px 0;
@@ -94,20 +102,35 @@ body{
 }
 
 .btn-hero{
+  background:linear-gradient(135deg,#2F8FB1,#1f3b73);
   font-size: 23px;
   font-weight: 700;
   padding:12px 30px;
 }
+.btn-hero:hover{
+  background:linear-gradient(135deg,#1f3b73,#247a96);
+}
 
-/* Section Bars */
-.section-bar{
-  background:var(--blue);
+.btn-nav{
+  background:linear-gradient(135deg,#2F8FB1,#1f3b73);
+  padding: 10px 20px;
+}
+
+.btn-nav:hover{
+  background:linear-gradient(135deg,#1f3b73,#247a96);
+}
+
+.section-bar2{
+  font-family: 'raleway', sans-serif;
+  background:linear-gradient(135deg,#2F8FB1,#1f3b73);
   color:#fff;
   text-align:center;
   font-weight:800;
-  font-size:22px;
-  padding:18px 0;     /* thicker */
+  font-size:30px;
+  padding:35px 0;
+  letter-spacing:1px;
 }
+
 
 /* Trust */
 .trust-box{
@@ -141,6 +164,9 @@ body{
   padding:22px;
   border-radius:12px;
   margin-bottom:18px;
+}
+.ingredient-item h6{
+  font-family: 'raleway', sans-serif;
 }
 .ingredient-img{
   width:200px;
@@ -193,56 +219,6 @@ body{
   font-size:15px;
   padding:25px 0;
 }
-.supplement-section{
-  background:#f8fbfd;
-}
-
-.supplement-block{
-  background:#fff;
-  padding:35px;
-  border-radius:14px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.05);
-}
-
-.supplement-title{
-  font-weight:800;
-  font-size:22px;
-  margin-bottom:20px;
-  position:relative;
-}
-
-.supplement-title::after{
-  content:"";
-  width:50px;
-  height:3px;
-  background:#2F8FB1;
-  position:absolute;
-  bottom:-8px;
-  left:0;
-}
-
-.supplement-list{
-  list-style:none;
-  padding:0;
-  margin-top:25px;
-}
-
-.supplement-list li{
-  position:relative;
-  padding-left:28px;
-  margin-bottom:14px;
-  font-size:17px;
-  font-weight:500;
-}
-
-.supplement-list li::before{
-  content:"✓";
-  position:absolute;
-  left:0;
-  top:0;
-  color:#2F8FB1;
-  font-weight:800;
-}
 .process-section{
   background:#f8fbfd;
 }
@@ -257,6 +233,9 @@ body{
   transition:0.3s ease;
 }
 
+.process-card h5{
+  font-family: 'raleway', sans-serif;
+}
 .process-card:hover{
   transform:translateY(-5px);
   box-shadow:0 18px 40px rgba(0,0,0,0.08);
@@ -292,6 +271,7 @@ body{
 }
 
 .guarantee-title{
+  font-family: 'raleway', sans-serif;
   font-size:36px;
   font-weight:800;
   color: black;  /* dark blue heading */
@@ -381,6 +361,7 @@ body{
 .price-img{
   max-height:350px;
   margin-bottom:20px;
+  
 }
 
 
@@ -490,3 +471,104 @@ body{
   font-size: 15px;
   line-height: 1.7;
 }
+
+
+.supplement-facts-section{
+  background: #f8f8f8;
+}
+
+.facts-main-title{
+  font-size:50px;
+  font-weight:800;
+  color:#2F8FB1;
+  letter-spacing:2px;
+}
+
+.facts-box{
+  background:#fff;
+  padding:30px;
+  border:2px solid #2F8FB1;
+  border-radius:10px;
+  font-size:15px;
+}
+
+.facts-serving p{
+  margin:0;
+  font-weight:600;
+}
+
+.facts-divider{
+  height:2px;
+  background:#2F8FB1;
+  margin:10px 0;
+}
+
+.facts-divider.thick{
+  height:6px;
+}
+
+.facts-row{
+  display:flex;
+  justify-content:space-between;
+  padding:6px 0;
+  font-size:14px;
+}
+
+.facts-row.header{
+  font-weight:800;
+}
+
+.facts-note{
+  font-size:12px;
+  margin-top:10px;
+}
+
+.product-facts-img{
+  max-width:400px;
+}
+
+.facts-icons{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+}
+
+.icon-box{
+  text-align:center;
+  font-weight:600;
+}
+
+.icon-box i{
+  font-size:30px;
+  color:#2F8FB1;
+  display:block;
+  margin-bottom:5px;
+}
+
+.policy-section{
+      padding:70px 0;
+    }
+
+    .policy-section h2{
+      font-weight:800;
+      font-size:22px;
+      margin-top:40px;
+      color:#1f3b73;
+    }
+
+    .policy-section p{
+      font-size:16px;
+      line-height:1.8;
+      margin-top:10px;
+    }
+
+    .policy-section strong{
+      font-weight:700;
+    }
+
+    .policy-card{
+      background:#fff;
+      padding:50px;
+      border-radius:16px;
+      box-shadow:0 20px 60px rgba(0,0,0,0.06);
+    }
